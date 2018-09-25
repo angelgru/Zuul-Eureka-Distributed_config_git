@@ -1,0 +1,12 @@
+server:
+  port: 8889
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/angelgru/cloud-config
+          username: angelgru
+          password: skapanica321
+  application:
+    name: config-server
